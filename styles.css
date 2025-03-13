@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.586);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: white; 
+    padding: 15px;
+    position: fixed;
+    width: 90%;
+    top: 15px;
+    left: 4%;
+    text-align: center;
+    z-index: 1000;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px #007bff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    background-color: #e0e0e0;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.hero-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.hero-text span {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: #555;
+}
+
+.hero-image img {
+    width: 280px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.favorites {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.favorites table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.favorites th, .favorites td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.favorites th {
+    background-color: #003366;
+    color: white;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 40px auto;
+    width: 70%;
+}
+
+.skills, .fun-extra {
+    background-color: #3b82f6;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center; 
+    box-shadow: 4px 4px 10px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 150px;
+}
+
+.skills h2, .fun-extra h2 {
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1.5px;
+}
+
+.fun-extra ul {
+    list-style-type: disc;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.fun-extra li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+html {
+    scroll-behavior: smooth;
+}
